@@ -14,6 +14,10 @@ func main() {
 		}
 	}
 
-	s := slices.AppendSeq([]int {1,2}, seq)
-	fmt.Println(s)
+	s1 := slices.AppendSeq([]int{1, 2}, seq)
+	s2 := slices.AppendSeq([]int{12, 21}, seq)
+
+	fmt.Println(s1)
+	fmt.Println(s2)
+
 }
