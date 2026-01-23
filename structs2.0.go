@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 type Person struct {
@@ -9,6 +10,10 @@ type Person struct {
 }
 
 func main(){
+	nani()
+}
+
+func nani(){
 	var pers1 Person
 	var pers2 Person
 
